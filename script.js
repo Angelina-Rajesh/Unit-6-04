@@ -1,9 +1,8 @@
-function addition() {
-  a = Number(parseInt(document.getElementById('inputa').value))
-  b = Number(parseInt(document.getElementById('inputb').value))
-  h = Number(parseInt(document.getElementById('inputh').value))
-  areaOfTrapezoid = ((a + b) / 2) * h
-  alert('Area of trapezoid = ' + Number(areaOfTrapezoid))
-}
+document.getElementById('button').addEventListener('click',function() {
 
-document.getElementById('button').addEventListene('click', addition)
+  var a = Number(document.getElementById('inputa').value)
+  var b = Number(document.getElementById('inputb').value)
+  var h = Number(document.getElementById('inputh').value)
+
+  alert(((a+b)/2)*h)
+})
