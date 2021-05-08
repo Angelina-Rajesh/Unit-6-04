@@ -6,4 +6,4 @@ function addition() {
   alert('Area of trapezoid = ' + Number(areaOfTrapezoid))
 }
 
-document.getElementById('button').addEventListener ('click', addition)
+document.getElementById('button').addEventListene('click', addition)
